@@ -3,13 +3,13 @@ import '../styles/global.css';
 export default function App({ Component, pageProps }) {
   return (
     <div>
-      <header>
+      {/* <header>
         <h1>GNB 헤더</h1>
-      </header>
+      </header> */}
       <Component {...pageProps} />
-      <footer>
+      {/* <footer>
         <h2>푸터</h2>
-      </footer>
+      </footer> */}
     </div>
   );
 }
